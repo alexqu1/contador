@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import milogo from '';
+
+import milogo from './imagenes/milogo.png';
 import './App.css';
 
 function App() {
@@ -7,9 +7,13 @@ function App() {
     <div className="App">
       <div className="logo-contenedor">
       <img
-      src={}
+      className="mi-logo"
+      src={milogo}
       alt="logo con import"
      />    
+      </div>
+      <div className="contenedor-principal">
+        
       </div>
     </div>
   );
